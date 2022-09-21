@@ -1,0 +1,109 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+
+* {
+    
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    height: 100vh;
+    overflow: hidden;
+}
+
+#container {
+    width: 550px;
+    height: 729px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+#header {
+    height:37%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #6943FF;
+    color: #fff;
+    font-weight: 700;
+}
+
+#header h1 {
+    font-size: 2.8rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+#header #number {
+    width: 117px;
+    height: 83px;
+    margin: 0 auto;
+    font-size: 5.8rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+}
+
+#header #btn-el {
+    width: 117px;
+    height: 42px;   
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.6rem;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+
+ #info {
+    height: 57.5%;
+    background: #1F2937;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} 
+
+#info div{
+    height: 108.57px;
+    width: 500px;
+    margin: 0 auto;
+    border-radius: 4.68077px 0px 0px 0px;
+    background-color: #273549;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#info div #unit {
+    font-size: 2rem;
+    margin-bottom: 9px;
+    padding:0.4rem;
+    font-weight: 700;
+    color: #CCC1FF;
+}
+
+#info div #length-info-el,
+#info div #volume-info-el,
+#info div #mass-info-el
+ {
+    font-size: 1.4rem;
+    padding:0.4rem;
+    color: #fff;
+}
+
+#info #volume {
+    margin: 9px auto;
+}
